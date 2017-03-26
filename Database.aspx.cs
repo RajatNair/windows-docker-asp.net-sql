@@ -70,6 +70,12 @@ namespace DockerSampleWebApplication
             outputConsole.Text = $"{outputConsole.Text}\n{message}";
         }
 
+        // Network protocol codes
+        // dbnmpntw - Named Pipes
+        // dbmssocn - TCP/IP
+        // dbmslpcn - Shared Memory
+        // dbmsspxn - SPX/IPX
+        // dbmsrpcn - Windows RPC
         protected void dbConnectionProvider_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (dbConnectionProvider.SelectedValue == "POSTGRES")
