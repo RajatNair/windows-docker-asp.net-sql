@@ -4,7 +4,7 @@
 
     <div class="jumbotron">
         <h1>Sample ASP.NET Docker Project</h1>
-        <p class="lead">To test DB connect to MS SQL and Postgre Docker containers</p>
+        <p class="lead">To test DB connect to MS SQL and Postgres Docker containers</p>
         <p><a href="/Database" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
     </div>
 
@@ -17,7 +17,7 @@
             Nunc imperdiet arcu massa, et fringilla turpis interdum at. Aenean semper nisl mi, ut vulputate est varius et. Fusce mattis sem nisi, vel iaculis sapien eleifend quis.
             </p>
             <p>
-                <a class="btn btn-default" href="/Default">Learn more &raquo;</a>
+                <a class="btn btn-default" href="/Database">Learn more &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
@@ -27,7 +27,7 @@
                 Nulla cursus ullamcorper lacus quis feugiat. Nulla a sem faucibus, accumsan libero eget, venenatis risus.
             </p>
             <p>
-                <a class="btn btn-default" href="/Default">Learn more &raquo;</a>
+                <a class="btn btn-default" href="/Database">Learn more &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
@@ -38,7 +38,7 @@
                 Sed pellentesque velit nulla, ac sodales lacus tincidunt vel. Duis erat mi, semper sed faucibus sagittis, tincidunt blandit nunc.
             </p>
             <p>
-                <a class="btn btn-default" href="/Default">Learn more &raquo;</a>
+                <a class="btn btn-default" href="/Database">Learn more &raquo;</a>
             </p>
         </div>
     </div>

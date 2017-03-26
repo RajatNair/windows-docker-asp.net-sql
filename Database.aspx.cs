@@ -83,5 +83,66 @@ namespace DockerSampleWebApplication
             else
                 connectionString.Text = "Data Source=190.190.200.100,1433;Network Library=DBMSSOCN;Initial Catalog=myDataBase;User ID=myUsername;Password=myPassword;";
         }
+
+        protected void insertIntoDB_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                outputConsole.Text = String.Empty;
+                if (dbConnectionProvider.SelectedValue == "MSSQL")
+                {
+                    insertIntoPostgres(connectionString.Text);
+                }
+                else
+                {
+                    insertIntoPostgres(connectionString.Text);
+                }
+            }
+            catch (Exception ex)
+            {
+                writeToConsole(ex.Message);
+            }
+        }
+
+        /* 
+         * create table data(
+                -- auto-generated primary key
+                data_id SERIAL primary key,
+                -- data
+                data varchar(255) not null
+            );
+         */
+        private void insertIntoPostgres(string connectionString)
+        {
+            try
+            {
+                using (var conn = new NpgsqlConnection(connectionString))
+                {
+                    conn.Open();
+                    using (var cmd = new NpgsqlCommand())
+                    {
+                        cmd.Connection = conn;
+
+                        // Insert some data
+                        cmd.CommandText = "INSERT INTO data (data) VALUES ('Hello world at " + DateTime.Now.ToUniversalTime() + "')";
+                        cmd.ExecuteNonQuery();
+
+                        // Retrieve all rows
+                        cmd.CommandText = "SELECT data FROM data";
+                        using (var reader = cmd.ExecuteReader())
+                        {
+                            while (reader.Read())
+                            {
+                                writeToConsole("Data from Db - " + reader.GetString(0));
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                writeToConsole(ex.Message);
+            }
+        }
     }
 }

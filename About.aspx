@@ -2,6 +2,6 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2><%: Title %></h2>
-    <h3>Lorem Ipsum</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus finibus elementum enim et dignissim. Cras auctor lectus tellus. Curabitur id leo sodales, semper risus sed, efficitur nulla. In nec imperdiet elit, at porttitor libero. Nunc imperdiet arcu massa, et fringilla turpis interdum at. Aenean semper nisl mi, ut vulputate est varius et. Fusce mattis sem nisi, vel iaculis sapien eleifend quis. Nulla vel convallis massa, ac iaculis lorem. Ut feugiat mauris convallis urna suscipit, ac interdum ipsum aliquet. Duis eget mauris ex.</p>
+    <h3>ASP.NET MSSQL POSTGRES Docker Project</h3>
+    <p>Idea behind this project is to showcase how you can package ASP.NET into a Docker container and communicate with a database.</p>
 </asp:Content>

@@ -152,6 +152,7 @@
       <DependentUpon>Dockerfile</DependentUpon>
     </None>
     <Content Include="README.md" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />

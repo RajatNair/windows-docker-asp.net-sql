@@ -25,12 +25,24 @@
     <hr />
     <div class="row">
         <div class="col-md-4">
+            <asp:Label runat="server" Text="Insert Data Test:"></asp:Label> <br />
+            <asp:Label runat="server" Text="Schema - create table data(data_id SERIAL primary key,data varchar(255) not null);"></asp:Label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <asp:Button class="btn btn-default" runat="server" Text="Insert Data Test" OnClick="insertIntoDB_Click" />
+        </div>
+    </div>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
             <asp:Label runat="server" Text="Console:"></asp:Label>
         </div>
     </div>
     <div class="row">
         <div class="col-md-12">
-            <asp:TextBox runat="server" ID="outputConsole" Columns="70" Wrap="true" Rows="10" TextMode="MultiLine" Width="800px" Text="Console" ></asp:TextBox>
+            <asp:TextBox runat="server" ID="outputConsole" Columns="70" Wrap="true" Rows="10" TextMode="MultiLine" Width="800px" Text="Console"></asp:TextBox>
         </div>
     </div>
 </asp:Content>
