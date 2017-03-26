@@ -4,8 +4,8 @@
 
     <div class="jumbotron">
         <h1>Sample ASP.NET Docker Project</h1>
-        <p class="lead">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</p>
-        <p><a href="/Default" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+        <p class="lead">To test DB connect to MS SQL and Postgre Docker containers</p>
+        <p><a href="/Database" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
     </div>
 
     <div class="row">

@@ -57,6 +57,9 @@ C:\Users\nairraja\Stash\Source\DockerSampleWebApplication\DockerSampleWebApplica
 C:\Users\nairraja\Stash\Source\DockerSampleWebApplication\DockerSampleWebApplication\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Users\nairraja\Stash\Source\DockerSampleWebApplication\DockerSampleWebApplication\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\nairraja\Stash\Source\DockerSampleWebApplication\DockerSampleWebApplication\bin\Microsoft.AI.Web.xml
-C:\Users\nairraja\Stash\Source\DockerSampleWebApplication\DockerSampleWebApplication\obj\Debug\DockerSampleWebApplication.csprojResolveAssemblyReference.cache
 C:\Users\nairraja\Stash\Source\DockerSampleWebApplication\DockerSampleWebApplication\obj\Debug\DockerSampleWebApplication.dll
 C:\Users\nairraja\Stash\Source\DockerSampleWebApplication\DockerSampleWebApplication\obj\Debug\DockerSampleWebApplication.pdb
+C:\Users\nairraja\Stash\Source\DockerSampleWebApplication\DockerSampleWebApplication\bin\Npgsql.dll
+C:\Users\nairraja\Stash\Source\DockerSampleWebApplication\DockerSampleWebApplication\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\nairraja\Stash\Source\DockerSampleWebApplication\DockerSampleWebApplication\bin\Npgsql.xml
+C:\Users\nairraja\Stash\Source\DockerSampleWebApplication\DockerSampleWebApplication\bin\System.Threading.Tasks.Extensions.xml
